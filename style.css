@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.media{
+    padding-left: 40px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.inputbox{
+    padding: 20px;
+    padding: 20px 20px 20px 0px;
+}
+.inputbox input[type="text"]{
+    height: 40px;
+    width: 550px;
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.inputbox input[type="submit"]{
+    height: 40px;
+    width: 90px;
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.country{
+    text-align: end;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    color:rgb(22, 21, 21);
+    
+}
+.name{
+    color:rgb(22, 21, 21);
+    opacity: .9;
+}
+body{
+    background:url('https://images.pexels.com/photos/207247/pexels-photo-207247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.weather-data{
+    color:#fff;
+    flex-direction: column;
+    display: flex;
+    font-size: 20px;
+}
+.container{
+    padding-top: 20px;
+    color:#fff;
+}
+.current-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.info{
+    flex-direction: column;
+    background: rgba(24,24,27, 0.6);
+    padding:20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;  
+}
+.weather-item{
+    display: flex;
+    opacity: .8;
+    justify-content: space-between;
+}
+@media (max-width: 600px){
+    .container{
+        padding-top: 0px;
+    }
+    .inputbox input[type="text"]{
+        height: 40px;
+        width: 300px;
+        background-color: beige;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .inputbox input[type="submit"]{
+        height: 40px;
+        width: 90px;
+        margin-top: 20px;
+        background-color: beige;
+        border-radius: 10px;
+        font-size: 20px; 
+    }
+    .media{
+        padding-left: 30px;
+    }
+    .country{
+        text-align: end;
+        font-size: 20px;
+        padding: 20px;
+        padding-left: 0;
+        padding-bottom: 5px;
+        color:rgb(22, 21, 21);
+        opacity: .9;
+    }
+    
+}
+@media (min-width: 600px){
+    .inputbox input[type="text"]{
+        height: 40px;
+        width: 300px;
+        background-color: beige;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .inputbox input[type="submit"]{
+        height: 40px;
+        width: 90px;
+        background-color: beige;
+        border-radius: 10px;
+        font-size: 20px; 
+    }
+    .media{
+        padding-left: 30px;
+    }
+    
+}
+@media (min-width: 700px){
+    .inputbox input[type="text"]{
+        height: 40px;
+        width: 400px;
+        background-color: beige;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .inputbox input[type="submit"]{
+        height: 40px;
+        width: 90px;
+        background-color: beige;
+        border-radius: 10px;
+        font-size: 20px; 
+    }
+    .media{
+        padding-left: 30px;
+    }
+    
+}
+@media (min-width:865px){
+    .inputbox input[type="text"]{
+        height: 40px;
+        width: 550px;
+        background-color: beige;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .inputbox input[type="submit"]{
+        height: 40px;
+        width: 90px;
+        background-color: beige;
+        border-radius: 10px;
+        margin-left: 10px;
+        font-size: 20px;   
+    }
+    .media{
+        padding-left: 50px;
+    }
+}
+.timedate{
+    color:rgb(22, 21, 21);
+
+}
+.timedate .time{
+    font-size: 50px;
+}
+
+.timedate #am-pm{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.timedate .date{
+    font-size: 20px;
+}
